@@ -13,7 +13,7 @@ $object = new Clase();
 $nulo = null;
 
 echo '$entero es de tipo: '.gettype($entero)."\n";
-echo '$decimal es de tipo: '.gettype(decimal)."\n";
+echo '$decimal es de tipo: '.gettype($decimal)."\n";
 echo '$cadena es de tipo: '.gettype($cadena)."\n";
 echo '$booleano es de tipo: '.gettype($booleano)."\n";
 echo '$arreglo es de tipo: '.gettype($arreglo)."\n";
