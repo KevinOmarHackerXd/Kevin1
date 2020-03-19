@@ -28,4 +28,14 @@
  {
      echo 'La variable \$clean no tiene valor alguno, aun.'."\n";
  }
- // TODO: revisar las funciones restantes y agregar ejemplos
+ // Done: revisar las funciones restantes y agregar ejemplos
+ $nombre = "Kevin";
+ if (isset($nombre))
+ {
+     echo $nombre."\n";
+ }
+ unset($nombre);
+ if(isset($nombre) == false)
+ {
+     echo "Variable \$nombre no declarada o igual a NULL";
+ }
