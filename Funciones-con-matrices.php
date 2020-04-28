@@ -17,7 +17,7 @@
  */
 
 // Crear una matriz indexada y recorrerla
-$nombres = array("Bidkar", "Alvaro", "Cesar"); // 3
+$nombres = array("Kevin Omar", "Cabanillas", "Nuñez"); // 3
 // imprimir el valor de Alvaro
 echo $nombres[1];
 
@@ -31,9 +31,9 @@ for ($i=0; $i < $nombres_length; $i++) {
 
 // Crear una matriz asociativa y recorrerla
 $usuarios = array(
-    "nombres" => "Bidkar",
-    "apellidos" => "Aragon C.",
-    "correo_electronico" => "bidkar@cetis108.edu.mx"
+    "nombres" => "Kevin Omar",
+    "apellidos" => "Cabanillas Nuñez",
+    "correo_electronico" => "kevinomar37@hotmail.com"
 );
 echo $usuarios["correo_electronico"];
 // imprimir los valores de $usuarios en una sola linea separados por coma
